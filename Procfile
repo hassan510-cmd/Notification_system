@@ -1,1 +1,1 @@
-web: gunicorn manage:app
+web: gunicorn Notification_Project.wsgi
