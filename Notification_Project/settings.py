@@ -24,7 +24,7 @@ SECRET_KEY = 'yqj-+f1^8i)cv-=vmxvvk#yqgum@b2m&(dxncf10hjz806)io#'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = ['notification-system101.herokuapp.com']
 
 # Application definition
 
