@@ -14,7 +14,7 @@ from Notification_notify.models import NotificationProfile
 class UserProfileViewSet(ViewSet):
     serializer_class = UserProfileSerializer
 
-    def list(self):
+    def list(self,request):
         result = UserProfile.objects.all()
         response = [
             {
