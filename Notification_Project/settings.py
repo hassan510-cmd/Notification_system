@@ -24,7 +24,7 @@ SECRET_KEY = 'yqj-+f1^8i)cv-=vmxvvk#yqgum@b2m&(dxncf10hjz806)io#'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = ['notification-system101.herokuapp.com']
+ALLOWED_HOSTS = ['notification-system101.herokuapp.com','127.0.0.1']
 
 # Application definition
 
@@ -126,5 +126,5 @@ STATIC_URL = '/static/'
 STATIC_ROOT = os.path.join(PROJECT_ROOT, 'staticfiles')
 BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 STATICFILES_DIRS = [
-    os.path.join(BASE_DIR, 'notification-front/build/static')
+    os.path.join(BASE_DIR, 'notification-front/build')
 ]
