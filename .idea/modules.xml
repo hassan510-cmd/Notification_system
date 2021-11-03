@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/../Disscussion_Board_App/.idea/Disscussion_Board_App.iml" filepath="$PROJECT_DIR$/../Disscussion_Board_App/.idea/Disscussion_Board_App.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/Notification_System.iml" filepath="$PROJECT_DIR$/.idea/Notification_System.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../hello_django_react/.idea/hello_django_react.iml" filepath="$PROJECT_DIR$/../hello_django_react/.idea/hello_django_react.iml" />
+    </modules>
+  </component>
+</project>
