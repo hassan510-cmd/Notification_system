@@ -126,5 +126,5 @@ STATIC_URL = '/static/'
 STATIC_ROOT = os.path.join(PROJECT_ROOT, 'staticfiles')
 BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 STATICFILES_DIRS = [
-    os.path.join(BASE_DIR, 'notification-front/build')
+    os.path.join(BASE_DIR, 'notification-front/build/static')
 ]
