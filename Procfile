@@ -1,0 +1,1 @@
+web: gunicorn Notification_PRO/manage:app
